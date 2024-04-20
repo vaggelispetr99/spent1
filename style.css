@@ -30,7 +30,7 @@
   background-position: top;
 }
 
-#myAlbum{
+#myAlbum, #contact_me{
   background-image: url('./assets/images/spent_logo.png'); 
   background-position: center;  
 }
