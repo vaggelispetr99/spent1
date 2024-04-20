@@ -9,6 +9,10 @@
 
 }
 
+.footer-fix{
+  flex:1;
+}
+
 .section{
   font-size: 14px;
 }
@@ -33,6 +37,9 @@
 
 body {
     font-family: 'Roboto';
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav-opt{
