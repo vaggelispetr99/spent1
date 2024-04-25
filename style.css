@@ -23,6 +23,24 @@
 
 .section2{
   font-size: 24px;
+  font-weight: 100;
+}
+
+.section3{
+  font-size: 28px;
+}
+
+.section4{
+  font-size: 12px;
+}
+
+.section5{
+  font-size: 13px;
+}
+
+.card-text{
+  font-size: 16pt;
+  font-weight:100;
 }
 
 #about_me{
@@ -30,10 +48,26 @@
   background-position: top;
 }
 
-#myAlbum, #contact_me{
-  background-image: url('./assets/images/spent_logo.png'); 
-  background-position: center;  
+#myAlbum{
+  background-image: url('./assets/images/spent_back.svg'); 
+  /*background-position: center;*/ 
+  /*background-repeat:repeat-y;*/
 }
+
+#myProduct{
+  background-image: url('./assets/images/spent_back.svg'); 
+  background-repeat:no-repeat;
+  background-position: center;
+
+
+}
+
+#contact_me, #myProducts{
+  background-image: url('./assets/images/contact_bg2b.svg'); 
+  background-position: center;
+  background-repeat:repeat-x;
+}
+
 
 body {
     font-family: 'Roboto';
@@ -82,14 +116,14 @@ body {
 }
 
 .lead {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   margin-bottom: 3rem;
   font-size: 16px;
 }
 
 .btn-ctn {
   border-width: 1px; 
-  font-size: 25px;
+  font-size: 20px;
   
 }
 
